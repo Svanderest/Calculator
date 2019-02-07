@@ -1,0 +1,67 @@
+div, section
+{
+	margin: 0;
+	padding: 0;
+}
+
+div
+{
+	width: 200px;
+}
+
+body
+{
+	font-size: 0;
+}
+
+section
+{
+	display: inline;
+}
+
+input[type="text"]
+{
+	display: block;
+	border: none;
+	font-size: 24px;
+	text-align: right;
+	width: 190px;
+}
+
+input[type="button"]
+{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	font-size: 16px;
+	background-color: #CCC;
+	border: 1px solid #000;
+}
+
+input[type="button"]:hover
+{
+	background-color: #aaa;
+}
+
+input[class="number"]
+{
+	background-color: #fff;
+}
+
+input[class="number"]:hover
+{
+	background-color: #ddd;
+}
+
+
+#screen
+{
+	border: 1px solid #000;
+	margin: 5px 0;
+}
+
+
+#enterrow
+{
+	margin-top: 5px;
+}
